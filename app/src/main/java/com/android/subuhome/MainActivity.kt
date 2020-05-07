@@ -18,8 +18,9 @@ class MainActivity : AppCompatActivity() {
 
     //使用:  (注意包名)
     // 1. 该项目去除keepalive包下的代码,打包生成apk
-    // 2. keepalive包赋值到目标应用
-    // 3. 目标应用启用保活时
+    // 2. apk放入目标项目ass文件夹下
+    // 3. keepalive包赋值到目标应用
+    // 4. 目标应用启用保活时
 
     //    if (!isInstalledKALargerNew()) {
     //        installKA(KeepAliveConstants.KA_FILE_NAME)
